@@ -11,6 +11,7 @@ import java.util.List;
 
 @Repository
 public class DepartmentRepository {
+
   public Department findByDeptno(int deptNo) {
     try {
       Connection con = DBManager.getConnection();
